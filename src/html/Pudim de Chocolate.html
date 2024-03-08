@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Esse é o site com todas as suas melhores receitas, sendo possível também, solicitar receitas que você deseja encontrar mas o site ainda não tem.">
+    <meta name="keywords" content="panela de barro, panela, barro, receita, receitas, fácil, rápido">
+    <meta name="author" content="Breno Silva">
+
+    <link rel="shortcut icon" href="../img/icone.jfif" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/receitas.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <title>PANELA DE BARRO</title>
+</head>
+
+<body>
+    <header>
+        <h1>PANELA DE BARRO</h1>
+        <p>Compartilhe e experimente novas delícias!</p>
+    </header>
+
+    <section class="receita">
+        <div class="cabeca">
+            <h2>Pudim de Chocolate</h2>
+            <img src="../img/Pudim de Chocolate.jfif" alt="Pudim de Chocolate">
+            <div class="anuncio">
+                <script async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1348086064050518"
+                    crossorigin="anonymous"></script>
+                <!-- anuncio 1 -->
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1348086064050518"
+                    data-ad-slot="6905521751" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <a href="javascript:history.back()">Voltar</a>
+        </div>
+
+        <div class="corpo">
+            <button id="botaoCompartilhar">Compartilhar</button>
+            <p>Ingredientes:</p>
+
+            <ul>
+                <li>1 xícara (240ml) de leite</li>
+                <li>3 ovos</li>
+                <li>1 lata de leite condensado</li>
+                <li>1/2 xícara (50g) de chocolate em pó</li>
+                <li>1 colher de sopa de amido de milho</li>
+                <li>1 xícara (200g) de açúcar (para a calda)</li>
+                <li>1/2 xícara (120ml) de água (para a calda)</li>
+            </ul>
+
+            <p>Modo de preparo:</p>
+
+            <ol>
+                <li>Prepare a calda derretendo o açúcar até obter um caramelo dourado, acrescente a água e
+                    mexa até dissolver. Despeje em uma forma para pudim.</li>
+                <li>No liquidificador, bata o leite, os ovos, o leite condensado, o chocolate em pó e o amido de
+                    milho.</li>
+                <li>Despeje a mistura na forma sobre a calda.</li>
+                <li>Leve ao forno preaquecido a 180°C em banho-maria por aproximadamente 1 hora ou até que o
+                    pudim esteja firme.</li>
+                <li>Deixe esfriar, leve à geladeira por algumas horas e desenforme.</li>
+                <li>Sirva o delicioso pudim de chocolate e aproveite!</li>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PANELA DE BARRO</p>
+    </footer>
+    <script>
+        document.getElementById('botaoCompartilhar').addEventListener('click', function () {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Título do Compartilhamento',
+                    text: 'Texto do Compartilhamento',
+                    url: 'https://sua-url.com'
+                })
+                    .then(() => console.log('Conteúdo compartilhado com sucesso!'))
+                    .catch((error) => console.error('Erro ao compartilhar:', error));
+            } else {
+                alert('A Web Share API não é suportada neste navegador.');
+            }
+        });
+    </script>
+</body>
+
+</html>

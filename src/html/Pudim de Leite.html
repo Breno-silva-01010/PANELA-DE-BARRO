@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Esse é o site com todas as suas melhores receitas, sendo possivel tambem, solicitar receitas que você deseja encontar mas o site ainda nâo tem.">
+    <meta name="keywords" content="panela de barro, panela, barro, receita, receitas, fácil, rapdo, ">
+    <meta name="author" content="Breno Silva">
+
+    <link rel="shortcut icon" href="../img/icone.jfif" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/receitas.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <title>PANELA DE BARRO</title>
+</head>
+
+<body>
+    <header>
+        <h1>PANELA DE BARRO</h1>
+        <p>Compartilhe e experimente novas delícias!</p>
+    </header>
+
+    <section class="receita">
+        <div class="cabeca">
+            <h2>Pudim de Leite</h2>
+            <img src="../img/Pudim de Leite.jfif" alt="Pudim de Leite Condensado">
+            <div class="anuncio">
+                <script async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1348086064050518"
+                    crossorigin="anonymous"></script>
+                <!-- PB doces -->
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1348086064050518"
+                    data-ad-slot="6905521751" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <a href="javascript:history.back()">Voltar</a>
+        </div>
+
+        <div class="corpo">
+            <button id="botaoCompartilhar">Compartilhar</button>
+            <p>Ingredientes:</p>
+
+            <ul>
+                <li>1 lata de leite condensado</li>
+                <li>2 latas de leite (use a lata de leite condensado como medida)</li>
+                <li>4 ovos</li>
+                <li>1 xícara (200g) de açúcar</li>
+                <li>1 colher de chá de essência de baunilha</li>
+            </ul>
+
+            <p>Modo de preparo:</p>
+
+            <ol>
+                <li>Pré-aqueça o forno a 180°C.</li>
+                <li>Em uma panela, faça uma calda com o açúcar, derretendo até obter um caramelo dourado.</li>
+                <li>Despeje o caramelo na forma de pudim, cobrindo o fundo e os lados.</li>
+                <li>No liquidificador, bata o leite condensado, leite, ovos e essência de baunilha.</li>
+                <li>Despeje a mistura na forma caramelizada.</li>
+                <li>Asse em banho-maria por cerca de 50-60 minutos, ou até que esteja firme.</li>
+                <li>Deixe esfriar completamente antes de desenformar. Leve à geladeira antes de servir.</li>
+                <li>Sirva gelado e desfrute desse delicioso pudim de leite condensado!</li>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PANELA DE BARRO</p>
+    </footer>
+    <script>
+        document.getElementById('botaoCompartilhar').addEventListener('click', function () {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Título do Compartilhamento',
+                    text: 'Texto do Compartilhamento',
+                    url: 'https://sua-url.com'
+                })
+                    .then(() => console.log('Conteúdo compartilhado com sucesso!'))
+                    .catch((error) => console.error('Erro ao compartilhar:', error));
+            } else {
+                alert('A Web Share API não é suportada neste navegador.');
+            }
+        });
+    </script>
+</body>

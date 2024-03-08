@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Esse é o site com todas as suas melhores receitas, sendo possivel tambem, solicitar receitas que você deseja encontar mas o site ainda nâo tem.">
+    <meta name="keywords" content="panela de barro, panela, barro, receita, receitas, fácil, rapdo, ">
+    <meta name="author" content="Breno Silva">
+
+    <link rel="shortcut icon" href="../img/icone.jfif" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/receitas.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <title>PANELA DE BARRO</title>
+</head>
+
+<body>
+    <header>
+        <h1>PANELA DE BARRO</h1>
+        <p>Compartilhe e experimente novas delícias!</p>
+    </header>
+
+    <section class="receita">
+        <div class="cabeca">
+            <h2>Sushi de Atum</h2>
+            <img src="../img/Sushi de Atum.jfif" alt="Sushi de Atum">
+            <div class="anuncio">
+                <script async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1348086064050518"
+                    crossorigin="anonymous"></script>
+                <!-- PB suchi -->
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1348086064050518"
+                    data-ad-slot="9486425390" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <a href="javascript:history.back()">Voltar</a>
+        </div>
+
+        <div class="corpo">
+            <button id="botaoCompartilhar">Compartilhar</button>
+            <p>Ingredientes:</p>
+
+            <ul>
+                <li>2 xícaras (400g) de arroz para sushi</li>
+                <li>1/2 xícara (120ml) de vinagre de arroz</li>
+                <li>2 colheres de sopa de açúcar</li>
+                <li>1 colher de chá de sal</li>
+                <li>Algas nori</li>
+                <li>Atum fresco, cortado em tiras</li>
+                <li>Abacate, cortado em tiras</li>
+                <li>Pepino, cortado em tiras</li>
+                <li>Molho de soja e wasabi para servir</li>
+            </ul>
+
+            <p>Modo de preparo:</p>
+
+            <ol>
+                <li>Lave o arroz até a água ficar clara. Cozinhe o arroz conforme as instruções da embalagem.</li>
+                <li>Em uma panela, aqueça o vinagre de arroz, açúcar e sal até dissolver. Misture ao arroz cozido.</li>
+                <li>Coloque uma folha de alga nori em uma esteira de bambu.</li>
+                <li>Umedeça as mãos e espalhe uma fina camada de arroz sobre a alga.</li>
+                <li>Coloque tiras de atum, abacate e pepino na borda mais próxima.</li>
+                <li>Rolando a esteira para frente, forme um rolo apertado.</li>
+                <li>Use uma faca molhada para cortar o rolo em pedaços.</li>
+                <li>Sirva com molho de soja e wasabi. Aproveite seu sushi de atum!</li>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PANELA DE BARRO</p>
+    </footer>
+
+    <script>
+        document.getElementById('botaoCompartilhar').addEventListener('click', function () {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Título do Compartilhamento',
+                    text: 'Texto do Compartilhamento',
+                    url: 'https://sua-url.com'
+                })
+                    .then(() => console.log('Conteúdo compartilhado com sucesso!'))
+                    .catch((error) => console.error('Erro ao compartilhar:', error));
+            } else {
+                alert('A Web Share API não é suportada neste navegador.');
+            }
+        });
+    </script>
+</body>

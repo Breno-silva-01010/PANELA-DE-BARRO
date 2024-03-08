@@ -1,0 +1,100 @@
+.receita{
+    display: flex;
+    width: 98%;
+    background-color: #3498db;
+    margin: 2% 1%;
+    box-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.838), 0.5vw 0.5vw 0.7vw rgb(87, 87, 87);
+}
+
+.cabeca{
+    flex: 35%;
+    display: inline-block;
+    text-align: center;
+    padding-left: 0.3vw;
+}
+
+h2{
+    color: white;
+    font-size: 3.5vw;
+    display: block;
+    text-shadow: 0.1vw 0.1vw black;
+}
+
+.cabeca img{
+    width: 100%;
+    height: auto;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 1vw 0;
+    margin: 1vw;
+    width: 90%;
+    background-color: #5da9dc;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5vw;
+    border-radius: 2vw;
+    border: 0.2vw solid #206593;
+    transition: background-color 0.3s ease;
+    text-shadow:0.03vw 0.03vw 0.1vw white, 0.1vw 0.1vw 0.2vw black;
+}
+
+a:hover {
+    background-color: #206593;
+    text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
+}
+
+.corpo{
+    flex: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-left: 0.1vw solid white;
+    padding: 0 0.5vw;
+    margin: 0.5vw 0.7vw;
+    text-shadow:0.03vw 0.03vw 0.1vw white, 0.1vw 0.1vw 0.2vw black;
+}
+
+.corpo p{
+    font-size: 2.5vw;
+    padding:0.6vw 0 1vw ;
+}
+.corpo li{
+    font-size: 2vw;
+    padding: 0.1vw 0;
+}
+
+#botaoCompartilhar{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 1.2vw 0;
+    margin: 1vw;
+    width: 98%;
+    background-color: #5da9dc;
+    color: #fff;
+    font-size: 2.5vw;
+    border-radius: 2vw;
+    border: 0.2vw solid #1c5880;
+    transition: background-color 0.3s ease;
+    text-shadow:0.03vw 0.03vw 0.1vw white, 0.1vw 0.1vw 0.2vw black;
+}
+#botaoCompartilhar:hover{
+    background-color: #1c5880;
+    text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
+}
+
+.anuncio{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+    border-top: 0.1vw solid white;
+    border-bottom: 0.1vw solid white;
+    height: 30%;
+    width: 31vw;
+    padding: 1.2vw 0;
+}
+
+ol,ul{
+    padding-left: 8%;
+}

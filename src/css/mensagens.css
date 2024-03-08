@@ -1,0 +1,61 @@
+
+body{
+    background-color: rgb(95, 111, 126);
+    justify-content: center;
+}
+
+
+.formulario{
+    color: white;
+    margin-top: 5vw;
+    flex-direction: column;
+}
+
+form{
+    background-color: rgb(51, 21, 114);
+}
+
+h2{
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 2vw;
+}
+
+ul{
+    font-size: 2vw;
+    margin: 1vw 30% 1vw;
+}
+
+p{
+    display: none;
+}
+
+li{
+    margin: 2vw 0;
+    padding: 2vw;
+    border: #fff solid 0.2vw;
+    text-shadow:0.03vw 0.03vw 0.1vw white, 0.1vw 0.1vw 0.2vw black;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: center;
+    padding: 1vw 0;
+    margin: 1vw 30%;
+    width: 40%;
+    background-color: #5da9dc;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5vw;
+    border-radius: 2vw;
+    border: 0.2vw solid #206593;
+    transition: background-color 0.3s ease;
+    text-shadow:0.03vw 0.03vw 0.1vw white, 0.1vw 0.1vw 0.2vw black;
+}
+
+a:hover {
+    background-color: #206593;
+    text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
+}
+

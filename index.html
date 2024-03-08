@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Esse é o site com todas as suas melhores receitas, sendo possivel tambem, solicitar receitas que você deseja encontar mas o site ainda nâo tem.">
+  <meta name="keywords" content="panela de barro, panela, barro, receita, receitas, fácil, rapdo, ">
+  <meta name="author" content="Breno Silva">
+
+  <link rel="shortcut icon" href="src/img/icone.jfif" type="image/x-icon">
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+  <title>PANELA DE BARRO</title>
+</head>
+
+<body>
+  <header>
+    <h1>PANELA DE BARRO</h1>
+    <p>Compartilhe e experimente novas delícias!</p>
+  </header>
+  <div class="paginas">
+    <a href="index.html">Inicio</a>
+    <a href="doces.html">Doces</a>
+    <a href="salgados.html">Salgados</a>
+    <a href="almoco.html">Almoço</a>
+    <!-- <a href="cafe da manha.html">Café da manhã</a> -->
+    <a href="comida chinesa.html">comida chinesa</a>
+  </div>
+
+  <p class="descricao">Bem-vindo ao "Panela de Barro"! Explore nosso universo culinário dividido em quatro páginas
+    irresistíveis: Salgados, Doces, Comida Chinesa e Almoço. Compartilhe suas receitas favoritas. Estamos aqui para
+    tornar sua jornada gastronômica ainda mais especial. Bon appétit! 🍲🍰🥢</p>
+
+  <h2 class="recentes">adicionadas recentemente:</h2>
+
+  <section class="receitas">
+
+    <a class="receita" href="src/html/LasanhaàBolonhesa.html">
+      <div class="cabeca">
+        <h2>Lasanha à Bolonhesa</h2>
+        <img src="src/img/lasanha a bolonhesa.jfif" alt="Lasanha à Bolonhesa">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/BrowniedeChocolate.html">
+      <div class="cabeca">
+        <h2>Brownie de Chocolate</h2>
+        <img src="src/img/Brownie de Chocolate.jfif" alt="Brownie de Chocolate">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/GuacamoleFresco.html">
+      <div class="cabeca">
+        <h2>Guacamole Fresco</h2>
+        <img src="src/img/Guacamole Fresco.jfif" alt="Guacamole Fresco">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Risoto de Cogumelos.html">
+      <div class="cabeca">
+        <h2>Risoto de Cogumelos</h2>
+        <img src="src/img/Risoto de Cogumelos.jfif" alt="Risoto de Cogumelos">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/PanquecasFluffy.html">
+      <div class="cabeca">
+        <h2>Panquecas Fluffy</h2>
+        <img src="src/img/Panquecas Fluffy.jfif" alt="Panquecas Fluffy">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Salada Caesar.html">
+      <div class="cabeca">
+        <h2>Salada Caesar</h2>
+        <img src="src/img/Salada Caesar.jfif" alt="Salada Caesar">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Frango ao Curry.html">
+      <div class="cabeca">
+        <h2>Frango ao Curry</h2>
+        <img src="src/img/Frango ao Curry.jfif" alt="Frango ao Curry">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Tiramisu.html">
+      <div class="cabeca">
+        <h2>Tiramisu</h2>
+        <img src="src/img/Tiramisu.jfif" alt="Tiramisu">
+      </div>
+    </a>
+  </section>
+
+  <div class="recado">
+    <h3>🍲 Não Encontrou a Receita Perfeita?</h3>
+    <p> Não se preocupe, estamos aqui para ajudar a tornar sua busca por sabores inesquecíveis ainda mais fácil! Se você
+      não encontrou a receita que procurava ou se tem uma ideia única em mente, queremos saber. Deixe-nos saber qual
+      receita está faltando em nosso cardápio, e faremos o possível para adicioná-la. Sua sugestão pode ser a próxima
+      estrela na nossa cozinha virtual. Entre em contato e ajude-nos a criar o repertório perfeito para todos os gostos!
+      🌟✨</p>
+
+    <div class="formulario">
+      <form action="processar-dados.php" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" placeholder="seu nome" required>
+        <label for="receita">Sua Mensagem</label>
+        <textarea name="receita" placeholder="receita que falta // sua receita" rows="6" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 PANELA DE BARRO</p>
+  </footer>
+</body>
+
+</html>

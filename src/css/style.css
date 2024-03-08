@@ -1,0 +1,202 @@
+header {
+    background-color: #c91313;
+    padding: 1vw;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0.1vw 0.1vw black, 0.1vw 0.1vw 0.2vw white;
+    padding-top: 0.1vw;
+}
+
+h1 {
+    font-size: 4.5vw;
+    text-shadow: 0.1vw 0.1vw white, 0.17vw 0.2vw black, 0.2vw 0.2vw 0.2vw white, 0.3vw 0.3vw 0.3vw white;
+}
+
+.descricao{
+    font-size: 2.9vw;
+    margin: 3vw 1vw 2vw;
+    padding: 3vw 1.5vw;
+    border: 0.5vw solid #13753c;
+    border-radius: 5vw;
+    background-color: #2ecc71;
+    color: white;
+    text-shadow: 0.2vw 0.2vw 0.2vw black, 0.3vw 0.3vw 0.4vw white;
+}
+
+.info{
+    text-align: center;
+    margin: 0.5vw 0;
+    padding: 0.5vw;
+    border-top: 0.1vw  #454a4c solid;
+    border-bottom: 0.1vw  #454a4c solid;
+    text-shadow: 0.1vw 0.1vw white, 0.1vw 0.1vw 0.15vw black;
+
+}
+
+.recentes{
+    color: white;
+    font-size: 3vw;
+    display: block;
+    text-shadow: 0.1vw 0.1vw black, 0.1vw 0.1vw 0.2vw white;
+    margin:3vw 4vw 0 1vw;
+    padding: 0.3vw;
+    border-radius: 10vw;
+    background-color: #454a4c;
+    text-align: center;
+
+}
+
+.paginas{
+    font-size: 2vw;
+    display: flex;
+    text-align: center;
+    background-color: #c91313;
+    border-top: 0.1vw solid#f9e8e8;
+    
+}
+
+.paginas a{
+    flex: 1;
+    margin: 0.5vw 1vw;
+    padding: 0.5vw 0;
+    background-color: rgba(141, 143, 255, 0.11);
+    text-decoration: none;
+    border-radius: 1vw;
+    border: 0.3vw solid #36363698;
+    color: white;
+    text-shadow:0.03vw 0.03vw 0.1vw white, 0.1vw 0.1vw 0.2vw black;
+    transition: background-color 0.3s ease;
+}
+
+.paginas a:hover{
+    background-color: #36363698;
+    text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
+}
+
+.paginas .selecionado{
+    border:0.3vw solid white;
+    text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
+}
+
+
+.receitas{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 2%;
+    justify-content: flex-start;
+
+}
+
+
+
+.receita{
+    width: 23.8%;
+    overflow: hidden;
+    background-color: #3498db;
+    margin: 1% 0.5%;
+    text-decoration: none;
+    border: 0.05vw solid rgb(163, 212, 225);
+    border-radius: 1vw;
+    box-shadow: 0.1vw 0.1vw 0.3vw rgba(0, 0, 0, 0.838), 0.3vw 0.3vw 0.5vw rgb(87, 87, 87);
+}
+
+.cabeca{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 2vw;
+    display: block;
+    text-shadow: 0.1vw 0.1vw black;
+    padding-bottom:0.1vw ;
+}
+
+.cabeca img{
+    height: 14.9vw;
+}
+
+.recado{
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 1vw;
+    background-color: #454a4c;
+    color: white;
+    text-shadow: 0.1vw 0.1vw black, 0.1vw 0.1vw 0.2vw white;
+    margin-bottom: 0.2vw;
+
+    /* display: none; */
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin: 0.5vw 0 4vw;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20vw;
+    padding:1vw;
+    border: 0.1vw solid rgb(255, 255, 255);
+    border-radius: 1vw;
+    box-shadow: 0.18vw 0.18vw 0.2vw rgb(212, 212, 212), 0.3vw 0.3vw 0.4vw white;
+}
+.formulario input{
+    margin: 1.2vw 0 1vw;
+    padding: 0.7vw;
+    font-size: 1.4vw;
+}
+.formulario textarea{
+    margin: 1.2vw 0;
+    font-size: 1.4vw;
+    padding: 0.7vw 0;
+
+}
+.formulario button{
+    background-color: #c91313;
+    border-radius: 0.5vw;
+    border: 0.1vw white solid;
+    color: white;
+    padding: 0.8vw 0;
+    font-size: 1.8vw;
+    text-shadow: 0.1vw 0.1vw black, 0.1vw 0.1vw 0.2vw white;
+    margin: 0.5vw 0;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #13753c;
+    border-color: white;
+}
+
+
+
+
+
+
+
+
+h3{
+    text-shadow: 0.1vw 0.1vw 0.15vw rgb(0, 0, 0), 0.15vw 0.15vw 0.15vw white;
+    font-size: 2vw;
+    padding-bottom: 0.5vw;
+}
+
+
+footer{
+    padding: 2%;
+    background-color: #2ecc71;
+    color: white;text-shadow: 0.1vw 0.1vw #13753c, 0.2vw 0.2vw  0.2vw white;
+    font-size: 1.5vw;
+    text-align: center;
+}

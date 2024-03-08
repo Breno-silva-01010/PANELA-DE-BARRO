@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Esse é o site com todas as suas melhores receitas, sendo possível também, solicitar receitas que você deseja encontrar mas o site ainda não tem.">
+    <meta name="keywords" content="panela de barro, panela, barro, receita, receitas, fácil, rápido">
+    <meta name="author" content="Breno Silva">
+
+    <link rel="shortcut icon" href="../img/icone.jfif" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/receitas.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <title>PANELA DE BARRO</title>
+</head>
+
+<body>
+    <header>
+        <h1>PANELA DE BARRO</h1>
+        <p>Compartilhe e experimente novas delícias!</p>
+    </header>
+
+    <section class="receita">
+        <div class="cabeca">
+            <h2>Empadão de Frango</h2>
+            <img src="../img/Empadao de Frango.jfif" alt="Empadão de Frango">
+            <div class="anuncio">
+                <script async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1348086064050518"
+                    crossorigin="anonymous"></script>
+                <!-- PB salgados -->
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1348086064050518"
+                    data-ad-slot="9276286804" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <a href="javascript:history.back()">Voltar</a>
+        </div>
+
+        <div class="corpo">
+            <button id="botaoCompartilhar">Compartilhar</button>
+            <p>Ingredientes:</p>
+
+            <ul>
+                <li>2 xícaras de peito de frango cozido e desfiado</li>
+                <li>1 lata de milho verde escorrido</li>
+                <li>1 lata de ervilha escorrida</li>
+                <li>1 cenoura ralada</li>
+                <li>1 cebola picada</li>
+                <li>2 dentes de alho picados</li>
+                <li>2 colheres de sopa de azeite</li>
+                <li>1 xícara de molho de tomate</li>
+                <li>Sal e pimenta a gosto</li>
+                <li>Massa folhada pronta</li>
+                <li>1 ovo batido para pincelar</li>
+            </ul>
+
+            <p>Modo de preparo:</p>
+
+            <ol>
+                <li>Em uma panela, refogue a cebola e o alho no azeite até dourar.</li>
+                <li>Adicione o frango desfiado, milho, ervilha, cenoura, molho de tomate, sal e pimenta.</li>
+                <li>Cozinhe por alguns minutos até que todos os ingredientes estejam bem misturados.</li>
+                <li>Forre uma forma com a massa folhada, despeje o recheio e cubra com outra camada de massa.</li>
+                <li>Pincele com ovo batido e faça pequenos cortes na superfície para ventilar.</li>
+                <li>Asse em forno preaquecido a 180°C por cerca de 30 minutos, ou até que a massa esteja dourada.</li>
+                <li>Sirva e aproveite o delicioso empadão de frango!</li>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PANELA DE BARRO</p>
+    </footer>
+
+    <script>
+        document.getElementById('botaoCompartilhar').addEventListener('click', function () {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Título do Compartilhamento',
+                    text: 'Texto do Compartilhamento',
+                    url: 'https://sua-url.com'
+                })
+                    .then(() => console.log('Conteúdo compartilhado com sucesso!'))
+                    .catch((error) => console.error('Erro ao compartilhar:', error));
+            } else {
+                alert('A Web Share API não é suportada neste navegador.');
+            }
+        });
+    </script>
+</body>
+</html>

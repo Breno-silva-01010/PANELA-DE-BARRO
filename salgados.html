@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Esse é o site com todas as suas melhores receitas, sendo possivel tambem, solicitar receitas que você deseja encontar mas o site ainda nâo tem.">
+  <meta name="keywords" content="panela de barro, panela, barro, receita, receitas, fácil, rapdo, ">
+  <meta name="author" content="Breno Silva">
+
+  <link rel="shortcut icon" href="src/img/icone.jfif" type="image/x-icon">
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+  <title>PANELA DE BARRO</title>
+</head>
+
+<body>
+  <header>
+    <h1>PANELA DE BARRO</h1>
+    <p>Compartilhe e experimente novas delícias!</p>
+  </header>
+  <div class="paginas">
+    <a href="index.html">Inicio</a>
+    <a href="doces.html">Doces</a>
+    <a href="salgados.html" class="selecionado">Salgados</a>
+    <a href="almoco.html">Almoço</a>
+    <!-- <a href="cafe da manha.html">Café da manhã</a> -->
+    <a href="comida chinesa.html">comida chinesa</a>
+  </div>
+
+  <p class="descricao">Explore o mundo dos sabores salgados em nossa seção dedicada. De petiscos irresistíveis a pratos
+    principais cheios de sabor, a Panela de Barro reúne receitas de salgados que vão aguçar seu paladar e inspirar sua
+    criatividade na cozinha.</p>
+
+  <p class="info">-- -- -- --AS RECEITAS ESTÃO ORGANIZADAS EM ORDEM ALFABETICA-- -- -- --</p>
+
+  <section class="receitas">
+
+    <a class="receita" href="src/html/BolinhoDeBacalhau.html">
+      <div class="cabeca">
+        <h2>Bolinho de Bacalhau</h2>
+        <img src="src/img/Bolinho de Bacalhau.jfif" alt="Bolinho de Bacalhau">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Coxinha.html">
+      <div class="cabeca">
+        <h2>Coxinha</h2>
+        <img src="src/img/Coxinha.jfif" alt="Coxinha">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Empada de Frango.html">
+      <div class="cabeca">
+        <h2>Empada de Frango</h2>
+        <img src="src/img/Empada de Frango.jfif" alt="Empada de Frango">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/EmpadaoDeFrango.html">
+      <div class="cabeca">
+        <h2>Empadão de Frango</h2>
+        <img src="src/img/Empadao de Frango.jfif" alt="Empadão de Frango">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/EsfihaDeCarne.html">
+      <div class="cabeca">
+        <h2>Esfiha de Carne</h2>
+        <img src="src/img/Esfiha de Carne.jfif" alt="Esfiha de Carne">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/GuacamoleFresco.html">
+      <div class="cabeca">
+        <h2>Guacamole Fresco</h2>
+        <img src="src/img/Guacamole Fresco.jfif" alt="Guacamole Fresco">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/PastelAssado.html">
+      <div class="cabeca">
+        <h2>Pastel Assado</h2>
+        <img src="src/img/Pastel Assado.jfif" alt="Pastel Assado">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/PastelDeCarne.html">
+      <div class="cabeca">
+        <h2>Pastel de Carne</h2>
+        <img src="src/img/Pastel de Carne.jfif" alt="Pastel de Carne">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Pizza Margherita.html">
+      <div class="cabeca">
+        <h2>Pizza Margherita</h2>
+        <img src="src/img/Pizza Margherita.jfif" alt="Pizza Margherita">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/SanduicheFrangoGrelhado.html">
+      <div class="cabeca">
+        <h2>Sanduíche de Frango Grelhado</h2>
+        <img src="src/img/Sanduiche de Frango Grelhado.jfif" alt="Sanduíche de Frango Grelhado">
+      </div>
+    </a>
+
+  </section>
+
+  <div class="recado">
+    <h3>🍲 Não Encontrou a Receita Perfeita?</h3>
+    <p> Não se preocupe, estamos aqui para ajudar a tornar sua busca por sabores inesquecíveis ainda mais fácil! Se você
+      não encontrou a receita que procurava ou se tem uma ideia única em mente, queremos saber. Deixe-nos saber qual
+      receita está faltando em nosso cardápio, e faremos o possível para adicioná-la. Sua sugestão pode ser a próxima
+      estrela na nossa cozinha virtual. Entre em contato e ajude-nos a criar o repertório perfeito para todos os gostos!
+      🌟✨</p>
+
+    <div class="formulario">
+      <form action="processar-dados.php" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" placeholder="seu nome" required>
+        <label for="receita">Sua Mensagem</label>
+        <textarea name="receita" placeholder="receita que falta // sua receita" rows="6" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 PANELA DE BARRO</p>
+  </footer>
+</body>
+
+</html>

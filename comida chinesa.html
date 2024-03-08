@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Esse é o site com todas as suas melhores receitas, sendo possivel tambem, solicitar receitas que você deseja encontar mas o site ainda nâo tem.">
+  <meta name="keywords" content="panela de barro, panela, barro, receita, receitas, fácil, rapdo, ">
+  <meta name="author" content="Breno Silva">
+
+  <link rel="shortcut icon" href="src/img/icone.jfif" type="image/x-icon">
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+  <title>PANELA DE BARRO</title>
+</head>
+
+<body>
+  <header>
+    <h1>PANELA DE BARRO</h1>
+    <p>Compartilhe e experimente novas delícias!</p>
+  </header>
+  <div class="paginas">
+    <a href="index.html">Inicio</a>
+    <a href="doces.html">Doces</a>
+    <a href="salgados.html">Salgados</a>
+    <a href="almoco.html">Almoço</a>
+    <!-- <a href="cafe da manha.html">Café da manhã</a> -->
+    <a href="comida chinesa.html" class="selecionado">comida chinesa</a>
+  </div>
+
+  <p class="descricao">Viaje para a culinária chinesa sem sair de casa! Nossa seção de Comida Chinesa oferece uma
+    variedade de pratos autênticos e reinterpretados. Explore sabores exóticos, aprenda técnicas de preparo e mergulhe
+    na riqueza da cozinha chinesa.</p>
+
+  <p class="info">-- -- -- --AS RECEITAS ESTÃO ORGANIZADAS EM ORDEM ALFABETICA-- -- -- --</p>
+
+  <section class="receitas">
+
+    <a class="receita" href="src/html/Chow_Mein.html">
+      <div class="cabeca">
+        <h2>Chow Mein</h2>
+        <img src="src/img/Chow_Mein.jfif" alt="Chow Mein">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Dim-Sum.html">
+      <div class="cabeca">
+        <h2>Dim Sum</h2>
+        <img src="src/img/Dim-Sum.jfif" alt="Dim Sum">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Pato-Laqueado.html">
+      <div class="cabeca">
+        <h2>Pato Laqueado</h2>
+        <img src="src/img/Pato-Laqueado.jfif" alt="Pato Laqueado">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Pato-Xadrez.html">
+      <div class="cabeca">
+        <h2>Pato Xadrez</h2>
+        <img src="src/img/Pato-Xadrez.jfif" alt="Pato Xadrez">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Role_de_Frango.html">
+      <div class="cabeca">
+        <h2>Rolê de Frango</h2>
+        <img src="src/img/Role_de_Frango.jfif" alt="Rolê de Frango">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Sushi de Atum.html">
+      <div class="cabeca">
+        <h2>Sushi de Atum</h2>
+        <img src="src/img/Sushi de Atum.jfif" alt="Sushi de Atum">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Tempura_de_Legumes.html">
+      <div class="cabeca">
+        <h2>Tempura de Legumes</h2>
+        <img src="src/img/Tempura_de_Legumes.jfif" alt="Tempura de Legumes">
+      </div>
+    </a>
+
+    <a class="receita" href="src/html/Yakisoba.html">
+      <div class="cabeca">
+        <h2>Yakisoba</h2>
+        <img src="src/img/Yakisoba.jfif" alt="Yakisoba">
+      </div>
+    </a>
+
+
+  </section>
+
+  <div class="recado">
+    <h3>🍲 Não Encontrou a Receita Perfeita?</h3>
+    <p> Não se preocupe, estamos aqui para ajudar a tornar sua busca por sabores inesquecíveis ainda mais fácil! Se você
+      não encontrou a receita que procurava ou se tem uma ideia única em mente, queremos saber. Deixe-nos saber qual
+      receita está faltando em nosso cardápio, e faremos o possível para adicioná-la. Sua sugestão pode ser a próxima
+      estrela na nossa cozinha virtual. Entre em contato e ajude-nos a criar o repertório perfeito para todos os gostos!
+      🌟✨</p>
+
+    <div class="formulario">
+      <form action="processar-dados.php" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" placeholder="seu nome" required>
+        <label for="receita">Sua Mensagem</label>
+        <textarea name="receita" placeholder="receita que falta // sua receita" rows="6" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 PANELA DE BARRO</p>
+  </footer>
+</body>
+
+</html>
