@@ -46,6 +46,17 @@ a:hover {
     text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
 }
 
+.anuncio{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+    border-top: 0.1vw solid white;
+    border-bottom: 0.1vw solid white;
+    height: 30%;
+    width: 31vw;
+    padding: 1.2vw 0;
+}
+
 .corpo{
     flex: 65%;
     font-family: Arial, Helvetica, sans-serif;
@@ -84,16 +95,7 @@ a:hover {
     text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
 }
 
-.anuncio{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1vw;
-    border-top: 0.1vw solid white;
-    border-bottom: 0.1vw solid white;
-    height: 30%;
-    width: 31vw;
-    padding: 1.2vw 0;
-}
+
 
 ol,ul{
     padding-left: 8%;
