@@ -17,6 +17,38 @@ h1 {
     text-shadow: 0.1vw 0.1vw white, 0.17vw 0.2vw black, 0.2vw 0.2vw 0.2vw white, 0.3vw 0.3vw 0.3vw white;
 }
 
+.paginas{
+    font-size: 2vw;
+    display: flex;
+    text-align: center;
+    background-color: #c91313;
+    border-top: 0.1vw solid#f9e8e8; 
+}
+
+.paginas a{
+    flex: 1;
+    margin: 0.5vw 1vw;
+    padding: 0.5vw 0;
+    background-color: rgba(141, 143, 255, 0.11);
+    text-decoration: none;
+    border-radius: 1vw;
+    border: 0.3vw solid #36363698;
+    color: white;
+    text-shadow:0.03vw 0.03vw 0.1vw white, 0.1vw 0.1vw 0.2vw black;
+    transition: background-color 0.3s ease;
+}
+
+.paginas a:hover{
+    background-color: #36363698;
+    text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
+}
+
+.paginas .selecionado{
+    border:0.3vw solid white;
+    text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
+}
+
+
 .descricao{
     font-size: 2.9vw;
     margin: 3vw 1vw 2vw;
@@ -48,41 +80,7 @@ h1 {
     border-radius: 10vw;
     background-color: #454a4c;
     text-align: center;
-
 }
-
-.paginas{
-    font-size: 2vw;
-    display: flex;
-    text-align: center;
-    background-color: #c91313;
-    border-top: 0.1vw solid#f9e8e8;
-    
-}
-
-.paginas a{
-    flex: 1;
-    margin: 0.5vw 1vw;
-    padding: 0.5vw 0;
-    background-color: rgba(141, 143, 255, 0.11);
-    text-decoration: none;
-    border-radius: 1vw;
-    border: 0.3vw solid #36363698;
-    color: white;
-    text-shadow:0.03vw 0.03vw 0.1vw white, 0.1vw 0.1vw 0.2vw black;
-    transition: background-color 0.3s ease;
-}
-
-.paginas a:hover{
-    background-color: #36363698;
-    text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
-}
-
-.paginas .selecionado{
-    border:0.3vw solid white;
-    text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
-}
-
 
 .receitas{
     display: flex;
@@ -91,8 +89,6 @@ h1 {
     justify-content: flex-start;
 
 }
-
-
 
 .receita{
     width: 23.8%;
@@ -221,7 +217,8 @@ h3{
 footer{
     padding: 2%;
     background-color: #2ecc71;
-    color: white;text-shadow: 0.1vw 0.1vw #13753c, 0.2vw 0.2vw  0.2vw white;
+    color: white;
+    text-shadow: 0.1vw 0.1vw #13753c, 0.2vw 0.2vw  0.2vw white;
     font-size: 1.5vw;
     text-align: center;
 }

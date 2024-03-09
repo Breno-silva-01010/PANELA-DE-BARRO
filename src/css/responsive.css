@@ -1,0 +1,194 @@
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (max-width: 800px) {
+
+    header {
+        padding: 1.5vw;
+    }
+
+    h1 {
+        font-size: 7vw;
+        text-shadow:  0.2vw 0.2vw white, 0.4vw 0.4vw black,0.46vw 0.46vw white, 0.4vw 0.4vw 1.3vw white;
+    }
+    
+    header p {
+        font-size: 3vw;
+        text-shadow: 0.2vw 0.2vw black, 0.2vw 0.2vw 0.3vw white;
+    }
+
+
+    .paginas{
+        font-size: 3vw;
+        border-top: 0.2vw solid#f9e8e8;
+        padding-top: 1vw;   
+    }
+    
+    .paginas a{
+        margin-bottom:1vw;
+        padding: 0.7vw 0;
+        border: 0.35vw solid #36363698;
+    }
+    
+    .paginas .selecionado{
+        border:0.35vw solid white;
+    }
+
+    .descricao{
+        font-size: 3vw;
+    }
+
+    .info{
+        padding: 0.9vw;
+        border-top: 0.2vw  #454a4c solid;
+        border-bottom: 0.2vw  #454a4c solid;
+        text-shadow: 0.2vw 0.2vw white, 0.2vw 0.2vw 0.26vw black;
+    }
+
+    .recentes{
+        padding: 0.5vw;
+    }
+
+    .receita{
+        width: 31%;
+        margin: 1% 0.8%;
+        border: 0.1vw solid rgb(163, 212, 225);
+        box-shadow: 0.15vw 0.15vw 0.3vw rgba(0, 0, 0, 0.838), 0.35vw 0.35vw 0.55vw rgb(87, 87, 87);
+    }
+
+    h2{
+        font-size: 2.8vw;
+        text-shadow: 0.2vw 0.2vw black;
+    }
+
+    .cabeca img{
+        height: 17vw;
+    }
+
+    .recado{
+        font-size: 2.3vw;
+        padding: 1.5vw;
+        text-shadow: 0.2vw 0.2vw black, 0.2vw 0.2vw 0.3vw white;
+    }
+
+    .recado h3{
+        font-size: 3.3vw;
+        text-shadow: 0.25vw 0.25vw black, 0.25vw 0.25vw 0.4vw white;
+        padding-bottom: 0.5vw;
+        margin-bottom: 0.5vw;
+        border-bottom: 0.1vw solid white;
+    }
+
+    .recado a{
+        margin: 4vw 10vw;
+        padding: 2vw 0;
+    }
+
+    .recado img{
+        width: 8vw;
+    }
+    
+    .recado a h3{
+        text-shadow: 0.3vw 0.3vw #13753c, 0.4vw 0.4vw 0.6vw #2ecc71;
+        font-size: 4.5vw;
+    }
+    
+    
+    footer{
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    h1 {
+        font-size: 8vw;
+    }
+    
+    header p {
+        font-size: 3.5vw;
+        text-shadow: 0.3vw 0.3vw black, 0.3vw 0.3vw 0.4vw white;
+    } 
+
+
+    .paginas{
+        font-size: 3.5vw;
+    }
+    
+    .paginas a{
+        padding: 0.9vw 0.2;
+        border: 0.38vw solid #36363698;
+    }
+    
+    .paginas .selecionado{
+        border:0.38vw solid white;
+    }
+
+
+    .descricao{
+        font-size: 3.5vw;
+        text-shadow: 0.3vw 0.3vw 0.3vw black, 0.4vw 0.4vw 0.6vw white;
+    }
+
+
+    .info{
+        font-size: 2.3vw;
+        text-shadow: 0.3vw 0.3vw white, 0.3vw 0.3vw 0.35vw black;
+    }
+
+
+    .recentes{
+        font-size: 3.5vw;
+    }
+
+
+    .receita{
+        width: 47.8%;
+        margin: 1.4% 0.8%;
+        border: 0.3vw solid rgb(163, 212, 225);
+    }
+
+
+    h2{
+        font-size: 3vw;
+        text-shadow: 0.3vw 0.3vw black;
+        padding: 0.2vw 0.3vw;
+    }
+
+    .cabeca img{
+        height: 30vw;
+    }
+
+    .recado{
+        font-size: 3.3vw;
+        text-shadow: 0.3vw 0.3vw black, 0.3vw 0.3vw 0.4vw white;
+    }
+
+    .recado h3{
+        font-size: 4.5vw;
+        text-shadow: 0.35vw 0.35vw black, 0.3vw 0.3vw 0.45vw white;
+        padding-bottom: 1vw;
+        margin-bottom: 1vw;
+        border-bottom: 0.3vw solid white;
+    }
+
+    .recado a{
+        margin: 5vw 10vw;
+        padding: 3vw 0;
+    }
+
+    .recado img{
+        width: 10vw;
+    }
+    
+    .recado a h3{
+        text-shadow: 0.4vw 0.4vw #13753c, 0.5vw 0.5vw 0.7vw #2ecc71;
+        font-size: 5.5vw;
+    }
+
+    footer{
+        font-size: 3vw;
+        text-shadow: 0.3vw 0.3vw #13753c, 0.3vw 0.3vw  0.3vw white;
+
+    }  
+}
+
+
