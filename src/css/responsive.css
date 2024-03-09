@@ -110,7 +110,7 @@
 
 
     .paginas{
-        font-size: 3.5vw;
+        font-size: 3.3vw;
     }
     
     .paginas a{
@@ -124,19 +124,19 @@
 
 
     .descricao{
-        font-size: 3.5vw;
+        font-size: 4vw;
         text-shadow: 0.3vw 0.3vw 0.3vw black, 0.4vw 0.4vw 0.6vw white;
     }
 
 
     .info{
-        font-size: 2.3vw;
+        font-size: 2.4vw;
         text-shadow: 0.3vw 0.3vw white, 0.3vw 0.3vw 0.35vw black;
     }
 
 
     .recentes{
-        font-size: 3.5vw;
+        font-size: 3.7vw;
     }
 
 
@@ -148,7 +148,7 @@
 
 
     h2{
-        font-size: 3vw;
+        font-size: 3.5vw;
         text-shadow: 0.3vw 0.3vw black;
         padding: 0.2vw 0.3vw;
     }
@@ -185,8 +185,8 @@
     }
 
     footer{
-        font-size: 3vw;
-        text-shadow: 0.3vw 0.3vw #13753c, 0.3vw 0.3vw  0.3vw white;
+        font-size: 3.3vw;
+        text-shadow: 0.3vw 0.3vw #13753c, 0.3vw 0.3vw  0.4vw white;
 
     }  
 }
