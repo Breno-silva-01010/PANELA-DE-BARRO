@@ -35,7 +35,7 @@ h1 {
     border-top: 0.1vw  #454a4c solid;
     border-bottom: 0.1vw  #454a4c solid;
     text-shadow: 0.1vw 0.1vw white, 0.1vw 0.1vw 0.15vw black;
-
+    font-size: 1.8vw;
 }
 
 .recentes{
@@ -126,17 +126,42 @@ h2{
 .recado{
     font-size: 1.4vw;
     font-family: Arial, Helvetica, sans-serif;
-
     padding: 1vw;
     background-color: #454a4c;
     color: white;
     text-shadow: 0.1vw 0.1vw black, 0.1vw 0.1vw 0.2vw white;
     margin-bottom: 0.2vw;
-
-    /* display: none; */
 }
 
-.formulario{
+.recado a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 3vw 10vw 4vw;
+    border-top: 0.1vw solid white;
+    border-bottom: 0.1vw solid white;
+    padding: 1.5vw 0;
+}
+
+.recado a:hover{
+    text-decoration: underline white 0.2vw;
+}
+
+.recado img{
+    height: auto;
+    width: 6vw;
+}
+
+.recado a h3{
+    color: white;
+    text-shadow: 0.2vw 0.2vw #13753c, 0.3vw 0.3vw 0.4vw #2ecc71;
+    font-size: 3vw;
+}
+
+
+
+/* .formulario{
     display: flex;
     justify-content: center;
     margin: 0.5vw 0 4vw;
@@ -177,7 +202,7 @@ h2{
 button:hover{
     background-color: #13753c;
     border-color: white;
-}
+} */
 
 
 
