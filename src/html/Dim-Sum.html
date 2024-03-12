@@ -83,9 +83,9 @@
         document.getElementById('botaoCompartilhar').addEventListener('click', function () {
             if (navigator.share) {
                 navigator.share({
-                    title: 'Título do Compartilhamento',
-                    text: 'Texto do Compartilhamento',
-                    url: 'https://sua-url.com'
+                    title: 'Panela de barro',
+                    text: 'Dim Sum',
+                    url: 'http://panela-de-barro.shop/src/html/Dim-Sum.html'
                 })
                     .then(() => console.log('Conteúdo compartilhado com sucesso!'))
                     .catch((error) => console.error('Erro ao compartilhar:', error));

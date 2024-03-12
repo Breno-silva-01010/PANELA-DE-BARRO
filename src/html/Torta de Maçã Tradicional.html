@@ -85,9 +85,9 @@
         document.getElementById('botaoCompartilhar').addEventListener('click', function () {
             if (navigator.share) {
                 navigator.share({
-                    title: 'Título do Compartilhamento',
-                    text: 'Texto do Compartilhamento',
-                    url: 'https://sua-url.com'
+                    title: 'Panela de barro',
+                    text: 'Torta de Maçã Tradicional',
+                    url: 'http://panela-de-barro.shop/src/html/Torta%20de%20Ma%C3%A7%C3%A3%20Tradicional.html'
                 })
                     .then(() => console.log('Conteúdo compartilhado com sucesso!'))
                     .catch((error) => console.error('Erro ao compartilhar:', error));

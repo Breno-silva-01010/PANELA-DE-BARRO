@@ -86,9 +86,9 @@
         document.getElementById('botaoCompartilhar').addEventListener('click', function () {
             if (navigator.share) {
                 navigator.share({
-                    title: 'Título do Compartilhamento',
-                    text: 'Texto do Compartilhamento',
-                    url: 'https://sua-url.com'
+                    title: 'Panela de Barro',
+                    text: 'Cupcakes de Chocolate com Ganache',
+                    url: 'http://panela-de-barro.shop/src/html/Cupcakes%20de%20Chocolate%20com%20Ganache.htm'
                 })
                     .then(() => console.log('Conteúdo compartilhado com sucesso!'))
                     .catch((error) => console.error('Erro ao compartilhar:', error));
