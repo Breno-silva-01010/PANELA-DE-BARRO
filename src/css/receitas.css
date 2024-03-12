@@ -46,7 +46,7 @@ a:hover {
     text-shadow:0.05vw 0.05vw 0.1vw rgb(0, 0, 0), 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
 }
 
-.anuncio{
+/* .anuncio{
     display: flex;
     flex-wrap: wrap;
     margin: 1vw;
@@ -55,7 +55,7 @@ a:hover {
     height: 30%;
     width: 31vw;
     padding: 1.2vw 0;
-}
+} */
 
 .corpo{
     flex: 65%;

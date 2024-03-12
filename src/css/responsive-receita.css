@@ -7,7 +7,7 @@
         flex-direction: column;
 
         position: relative;
-        padding-bottom: 50vw;
+        padding-bottom: 15vw;
     }
 
     .cabeca{
@@ -35,11 +35,11 @@
         text-shadow:0.1vw 0.1vw 0.1vw white, 0.2vw 0.2vw 0.25vw black;
 
         position: absolute;
-        bottom: 38vw;
+        bottom: 1vw;
         left: 9%;
     }
 
-    .anuncio{
+    /* .anuncio{
         background-color: black;
 
         margin: 1vw;
@@ -51,7 +51,7 @@
         position: absolute;
         bottom: 0.5vw;
         left: 10%;
-    }
+    } */
 
 
     .corpo{
